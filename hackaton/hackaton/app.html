@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Satal</title>
+    <link rel="stylesheet" href="css/style_header.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+   
+    <div class="body__box">
+        <div class="left__box">
+            <img src="img/name.png" alt="" class="name_img">
+            <p class="left__text_menu">Главная меню</p>
+            <div class="nav_box">
+                <img src="img/Vector.png" alt="" class="nav_img">
+                <a href="app.html" class="nav">Центр заявок</a>
+            </div>
+            <div class="nav_box">
+                <img src="img/emojione-monotone_bookmark-tabs.png" alt="" class="nav_img">
+                <a href="app_index.html" class="nav">Заявки</a>
+            </div>
+            <div class="nav_box">
+                <img src="img/chart.png" alt="" class="nav_img">
+                <a href="#" class="nav">Спецтехника</a>
+            </div>
+            <div class="nav_box">
+                <img src="img/people.png" alt="" class="nav_img">
+                <a href="#" class="nav">Отчёты</a>
+            </div>
+            <div class="nav_box">
+                <img src="img/edit.png" alt="" class="nav_img">
+                <a href="#" class="nav">Водители</a>
+            </div>
+            <div class="nav_box">
+                <img src="img/wallet-2.png" alt="" class="nav_img">
+                <a href="#" class="nav">Live карта</a>
+            </div>
+        </div>
+        <div class="right__box">
+            <div class="left_nav_box">
+                <img src="img/menu.png" alt="" class="menu__img">
+                <a href="php/exit.php"><img src="img/majesticons_door-exit.png" alt="" class="exit__img"></a>
+            </div>
+        <hr class="line">
+        <p class="app__text">Центр заявок</p>
+        <div class="map__box">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6184519.473568735!2d95.37066080055703!3d67.76313724343001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5ca88a91291d231f%3A0xd2695d442c35e12e!2z0JrRgNCw0YHQvdC-0Y_RgNGB0LrQuNC5INC60YDQsNC5!5e0!3m2!1sru!2sru!4v1665896341466!5m2!1sru!2sru" width="770" height="370" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <form action="php/app.php" method="POST" class="app__form">
+            <input type="text" class="app__input" name="addres" placeholder="Напишите куда доставить транспорт"> <br>
+            <input type="time" class="app__input" name="time" placeholder="Время"> <br>
+            <input type="text" class="app__input" name="tech" placeholder="Напишите тип спецтехники"> <br>
+            <input type="text" class="app__input" name="comment" placeholder="Комментарий к заявке"> <br>
+            <button type="submit" class="app__button">Создать заявку</button>
+        </form>
+        </div>
+    </div>
+</body>
+</html>

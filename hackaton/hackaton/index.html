@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Satal</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="auth__body">
+        <img src="img/reg_img.png" alt="">
+        <div class="auth__list">
+            <p class="auth__text">Войдите в свой аккаунт</p>
+            <form action="php/auth.php" class="auth_form" method="POST">
+                <p class="form__text">Номер телефона</p>
+                <input type="text" class="form__input" name="tell" id="tell" placeholder="Введите номер телефона">
+                <p class="form__text">Пароль</p>
+                <input type="password" class="form__input" name="pass" id="pass" placeholder="Введите пароль"> <br>
+                <button class="form__btn" type="submit">Войти в аккаунт</button>
+            </form>
+            <div class="footer__box">
+                <p class="footer_box_text">Нет аккаунта ?</p>
+                <a class="footer_box_link" href="reg.html">Зарегестрироваться</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

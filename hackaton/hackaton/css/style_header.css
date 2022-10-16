@@ -1,0 +1,133 @@
+ * {
+    top: 0;
+    left: 0;right: 0;
+    bottom: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+ }
+
+ .body__box {
+    background: #A5DBDD;
+    height: 100vh;
+    display: flex;
+ }
+
+ .left__box {
+   width: 15%;
+   height: 100vh;
+ }
+
+ .right__box {
+   background: #FFFFFF;
+   height: 100vh;
+   width: 85%;
+ }
+
+.name_img {
+   padding-top: 50px;
+   padding-left: 20px;
+}
+
+.left__text_menu {
+   font-style: normal;
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 15px;
+   color: rgba(255, 255, 255, 0.6);
+   padding-left: 20px;
+   margin-top: 20px;
+}
+
+.nav_box {
+   display: flex;
+   margin-left: 20px;
+   margin-top: 20px;
+}
+
+.nav {
+   font-style: normal;
+   font-weight: 600;
+   font-size: 14px;
+   line-height: 17px;
+   text-decoration: none;
+   color: #FFFFFF;
+   padding-left: 20px;
+}
+
+.left_nav_box {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-top: 20px;
+   padding-left: 20px;
+   padding-right: 20px;
+}
+
+.exit__img {
+
+}
+
+.line {
+   width: 97.5%;
+   height: 1px;
+   color: gray;
+   margin-left: 20px;
+   margin-right: 20px;
+   margin-top: 20px;
+}
+
+.app__text{
+   font-style: normal;
+   font-weight: 800;
+   font-size: 20px;
+   line-height: 28px;
+   color: #2E3A59;
+   padding-left: 20px;
+   padding-top: 20px;
+}
+
+.map__box {
+   margin-top: 20px;
+   margin-left: 20px;
+}
+
+.app__form {
+   margin-top: 20px;
+   margin-left: 20px;
+}
+
+.app__input {
+   background: #FFFFFF;
+   border: 1px solid #DBE2EA;
+   box-shadow: 0px 4px 8px rgba(44, 39, 56, 0.04);
+   border-radius: 6px;
+   margin-top: 20px;
+   width: 360px;
+   height: 45px;
+   padding-left: 20px;
+}
+
+.app__button {
+   background: #A5DBDD;
+   box-shadow: 0px 2px 4px rgba(44, 39, 56, 0.08), 0px 4px 8px rgba(44, 39, 56, 0.08);
+   border-radius: 6px;
+   width: 180px;
+   height: 45px;
+   border: none;
+   color: #FFFFFF;
+   margin-top: 20px;
+}
+
+.app__index__img {
+   width: 100%;
+}
+
+.img__flex {
+   display: flex;
+   justify-content: center;
+   margin-left: 20px;
+   margin-right: 20px;
+   margin-top: -90px;
+}
